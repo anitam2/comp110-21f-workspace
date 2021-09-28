@@ -9,7 +9,7 @@ num_repititions = int(word_repititions)
 count: int = 0
 word: str = ""
 
-if num_repititions <= 0:
+if num_repititions <= 0: 
     print("No beat...")
 else:
     while count < num_repititions:

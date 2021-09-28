@@ -22,7 +22,7 @@ else:
         print("You will fall in love soon.")
     else:
         if result >= 5:
-            print("Your life will be happy and peaceful.")
+            print("Your life will be happy and peaceful.") 
         else:
             print("A beautiful, smart, and loving person will be coming into your life.")
 

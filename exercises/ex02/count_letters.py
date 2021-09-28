@@ -1,6 +1,6 @@
 """Counting letters in a string."""
 
-__author__ = "730408275"
+__author__ = "730408275" 
 
 
 letter = input("What letter do you want to seach for?: ")
