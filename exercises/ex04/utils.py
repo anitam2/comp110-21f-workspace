@@ -1,6 +1,5 @@
 """List utility functions."""
 
-<<<<<<< HEAD
 __author__ = "730408275"
 
 
@@ -40,9 +39,3 @@ def max(input: list[int]) -> int:
             current_max = input[i]
         i += 1
     return current_max
-=======
-__author__ = "123456789"
-
-
-# TODO: Implement your functions here.
->>>>>>> 75d5a25d0b84063cbf6a8cc58cc71c34269e73d8
