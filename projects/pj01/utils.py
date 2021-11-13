@@ -28,14 +28,14 @@ def is_equal(xs: list[int], ab: list[int]) -> bool:
         return True
 
 
-def max(input: list[int]) -> int:
-    """The max function is given a list of ints and returns the largest in the list."""
+def max(input: list[str]) -> int:
+    """The max function is given a list of str and returns the largest in the list as an int."""
     if len(input) == 0:
         raise ValueError("max() arg is an empty List")
-    current_max: int = input[0]
+    current_max: int = int(input[0])
     i: int = 1
     while i < len(input):
-        if input[i] > current_max:
-            current_max = input[i]
+        if int(input[i]) > current_max:
+            current_max = int(input[i])
         i += 1
     return current_max
